@@ -6,10 +6,10 @@ import numpy as np
 from envs import FunSeq
 from logger import init_logger, log
 
-DIM = 100
+DIM = 10
 activations = ["relu", "id", "sin", "tanh", "sigmoid"]
-NUM_LINEAR = 25
-MAX_LEN = 100
+NUM_LINEAR = 2
+MAX_LEN = 20
 device = torch.device("cuda")
 BATCH_SIZE = 64
 LR = 1e-3
