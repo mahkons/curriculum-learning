@@ -1,0 +1,13 @@
+# logs
+logdir
+
+# python
+__pycache__
+
+# vim
+*.swp
+*.swn
+
+# dataset
+data/
+generated/
